@@ -23,6 +23,7 @@ function searchBar({setRegion,setSearch }) {
               placeholder="Search for country..."
               aria-label="Search"
               onChange={(busqueda)=>setSearch(busqueda.target.value)}
+              alt="hola"
             />
           </form>
         </div>

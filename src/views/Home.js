@@ -39,6 +39,7 @@ function Home() {
                 { region ? (
                       regionCountry.map((country, index) => (
                         <Card
+                        key={index}
                         img={country.flags.png}
                         name={country.name.common}
                         population={country.population}
